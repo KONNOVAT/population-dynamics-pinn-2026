@@ -1,0 +1,68 @@
+\documentclass[
+  fontsize=14,
+  DIV=15,
+]{scrreprt}
+
+\usepackage[no-math]{fontspec}
+
+\usepackage{polyglossia}
+\setdefaultlanguage[indentfirst=true,spelling=modern]{russian}
+\setotherlanguage{english}
+
+\usepackage{amsmath}
+\usepackage{unicode-math}
+
+\unimathsetup{
+  mathbf=sym,
+  mathrm=sym,
+}
+
+\setmainfont{CMU Serif}
+\setromanfont{CMU Serif}
+\setsansfont{CMU Sans Serif}
+\setmonofont{CMU Typewriter Text}
+\setmathfont{Latin Modern Math}
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks,
+  citecolor=black,
+  filecolor=black,
+  linkcolor=black,
+  urlcolor=black,
+  unicode=true,
+  pdftitle={ВКР Коннова — Модели конкуренции и PINN},
+  pdfauthor={Коннова Т.}
+}
+
+\usepackage{minted}
+\usemintedstyle{friendly}
+\setminted{
+  autogobble=true,
+  breaklines=true,
+  breakanywhere=true,
+  obeytabs=false,
+  tabsize=2,
+  linenos=true,
+}
+\usepackage{verbatim}
+
+\usepackage{graphicx}
+\graphicspath{{img/}}
+
+\usepackage[autostyle]{csquotes}
+\usepackage{url}
+
+\usepackage[%
+  backend=biber,
+  bibstyle=gost-numeric,
+  defernumbers=true,
+  movenames=false,
+  maxbibnames=99,
+  sorting=nyt
+]{biblatex}
+\bibliography{lit}
+
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{subcaption}

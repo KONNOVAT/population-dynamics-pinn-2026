@@ -1,0 +1,129 @@
+\include{preambule}
+
+\begin{document}
+
+\begin{titlepage}
+  \centering
+  \vspace*{1cm}
+  {\large Российский университет дружбы народов имени Патриса Лумумбы}\\[0.5cm]
+  {\large Факультет физико-математических и естественных наук}\\[0.5cm]
+  {\large Кафедра теории вероятности и кибербезопасности}\\[2cm]
+
+  {\LARGE\bfseries Сравнительное исследование численных и нейросетевых методов моделирования динамики конкурирующих популяций}\\[1.5cm]
+
+  {\large Выпускная квалификационная работа магистра}\\[2cm]
+
+  \begin{flushright}
+    {\large Студент: Коннова Т.}\\[0.3cm]
+    {\large Научный руководитель: Штепа К. А.}\\
+  \end{flushright}
+
+  \vfill
+  {\large Москва --- 2027}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\chapter*{Введение}
+\addcontentsline{toc}{chapter}{Введение}
+
+% TODO: Актуальность, цель, задачи, объект и предмет исследования
+
+\chapter{Математическое моделирование популяционной динамики}
+\label{ch:models}
+
+\section{Модель Лотки-Вольтерры}
+\label{sec:lv-model}
+
+% Предпосылки построения, отличие конкуренции от модели «хищник-жертва»
+
+\section{Классическая модель конкуренции}
+\label{sec:competition-ode}
+
+% Система ОДУ, переменные, коэффициенты
+
+\section{Режимы конкуренции}
+\label{sec:regimes}
+
+% Сосуществование, вытеснение, бистабильность
+
+\section{Диффузионная модель конкуренции}
+\label{sec:diffusion-pde}
+
+% Математическая постановка PDE, начальные и граничные условия
+
+
+\chapter{Классические численные методы и PINN}
+\label{ch:methods}
+
+\section{Численные методы решения ОДУ}
+\label{sec:rk-methods}
+
+% Методы Рунге-Кутты, оценка погрешности
+
+\section{Численные методы решения УЧП}
+\label{sec:pde-methods}
+
+% Метод конечных разностей, метод прямых
+
+\section{Физически-информированные нейронные сети (PINN)}
+\label{sec:pinn}
+
+% Принципы PINN, архитектура, функция потерь
+
+\section{Применение PINN для решения ОДУ}
+\label{sec:pinn-ode}
+
+% NNODE, формирование функции потерь
+
+\section{Применение PINN для решения УЧП}
+\label{sec:pinn-pde}
+
+% PhysicsInformedNN
+
+\section{Методика сравнительного исследования}
+\label{sec:methodology}
+
+% Критерии оценки, метрики ошибок
+
+
+\chapter{Программная реализация и вычислительные эксперименты}
+\label{ch:experiments}
+
+\section{Выбор инструментальных средств}
+\label{sec:tools}
+
+% Julia, DifferentialEquations.jl, NeuralPDE.jl, Lux.jl
+
+\section{Численное решение классической модели конкуренции}
+\label{sec:exp-ode-numeric}
+
+\section{Решение классической модели с использованием PINN}
+\label{sec:exp-ode-pinn}
+
+\section{Численное решение диффузионной модели}
+\label{sec:exp-pde-numeric}
+
+\section{Решение диффузионной модели с использованием PINN}
+\label{sec:exp-pde-pinn}
+
+\section{Исследование различных режимов конкуренции}
+\label{sec:exp-regimes}
+
+\section{Сравнительный анализ точности и вычислительных затрат}
+\label{sec:exp-comparison}
+
+\section{Анализ полученных результатов}
+\label{sec:exp-analysis}
+
+
+\chapter*{Заключение}
+\addcontentsline{toc}{chapter}{Заключение}
+
+% Основные результаты, выводы, направления дальнейшего развития
+
+\printbibliography[title={Список литературы}]
+\addcontentsline{toc}{chapter}{Список литературы}
+
+\end{document}

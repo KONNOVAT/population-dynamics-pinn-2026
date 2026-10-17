@@ -1,0 +1,35 @@
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+
+# Julia
+*.jl.cov
+*.jl.mem
+Manifest.toml
+
+# OS
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# PDF (keep specific ones, ignore generated)
+# *.pdf
+
+# Materials from advisor / previous years (local only)
+misc/
+План ВКРм Коннова.docx
+Применение_NeuralPDE_jl_*
+КОНСПЕКТ.md
