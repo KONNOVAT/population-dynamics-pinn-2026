@@ -1,0 +1,40 @@
+project:
+  type: book
+  output-dir: _output
+
+book:
+  title: "Сравнительное исследование численных и нейросетевых методов моделирования динамики конкурирующих популяций"
+  author: "Коннова Т."
+  date: "2027"
+  chapters:
+    - index.qmd
+    - chapter1.qmd
+
+bibliography: lit.bib
+csl: gost-r-7-0-5-2008-numeric.csl
+
+format:
+  pdf:
+    documentclass: scrreprt
+    classoption:
+      - fontsize=14pt
+      - DIV=15
+    pdf-engine: xelatex
+    include-in-header: preamble-quarto.tex
+    lang: ru
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    colorlinks: false
+    linkcolor: black
+    citecolor: black
+    urlcolor: black
+    geometry:
+      - top=2cm
+      - bottom=2cm
+      - left=3cm
+      - right=1.5cm
+    mainfont: "CMU Serif"
+    sansfont: "CMU Sans Serif"
+    monofont: "CMU Typewriter Text"
+    mathfont: "Latin Modern Math"

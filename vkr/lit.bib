@@ -1,10 +1,11 @@
-@book{Bratus2010,
-  author    = {Братусь, А. С. and Новожилов, А. С. and Платонов, А. П.},
-  title     = {Динамические системы и модели биологии},
-  year      = {2010},
-  publisher = {Физматлит},
-  address   = {Москва},
-  language  = {russian},
+% === Классические работы по популяционной динамике ===
+
+@book{Lotka1925,
+  author    = {Lotka, A. J.},
+  title     = {Elements of Physical Biology},
+  year      = {1925},
+  publisher = {Williams and Wilkins},
+  address   = {Baltimore},
 }
 
 @book{Volterra1976,
@@ -12,6 +13,24 @@
   title     = {Математическая теория борьбы за существование},
   year      = {1976},
   publisher = {Наука},
+  address   = {Москва},
+  language  = {russian},
+}
+
+@book{Bazikin2003,
+  author    = {Базыкин, А. Д.},
+  title     = {Нелинейная динамика взаимодействующих популяций},
+  year      = {2003},
+  publisher = {Институт компьютерных исследований},
+  address   = {Москва -- Ижевск},
+  language  = {russian},
+}
+
+@book{Bratus2010,
+  author    = {Братусь, А. С. and Новожилов, А. С. and Платонов, А. П.},
+  title     = {Динамические системы и модели биологии},
+  year      = {2010},
+  publisher = {Физматлит},
   address   = {Москва},
   language  = {russian},
 }
@@ -42,32 +61,38 @@
   address   = {Chichester},
 }
 
-@article{Raissi2019,
-  author  = {Raissi, M. and Perdikaris, P. and Karniadakis, G. E.},
-  title   = {Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations},
-  journal = {Journal of Computational Physics},
-  volume  = {378},
-  pages   = {686--707},
-  year    = {2019},
+@book{Svirezhev1978,
+  author    = {Свирежев, Ю. М. and Логофет, Д. О.},
+  title     = {Устойчивость биологических сообществ},
+  year      = {1978},
+  publisher = {Наука},
+  address   = {Москва},
+  language  = {russian},
 }
 
-@article{NeuralPDE,
-  author  = {Zubov, K. and McCarthy, Z. and Ma, Y. and Calisto, F. and Pagliarino, V. and Azeglio, S. and Bottero, L. and Luján, E. and Sulzer, V. and Bharambe, A. and Vinchhi, N. and Balakrishnan, K. and Upadhyay, D. and Rackauckas, C.},
-  title   = {NeuralPDE: Automating Physics-Informed Neural Networks (PINNs) with Error Approximations},
-  journal = {arXiv preprint arXiv:2107.09443},
-  year    = {2021},
+% === Численные методы ===
+
+@book{HairerNorsettWanner1993,
+  author    = {Hairer, E. and Nørsett, S. P. and Wanner, G.},
+  title     = {Solving Ordinary Differential Equations I: Nonstiff Problems},
+  year      = {1993},
+  edition   = {2nd},
+  publisher = {Springer},
+  address   = {Berlin},
 }
 
-@article{Rackaucas2017,
-  author  = {Rackauckas, C. and Nie, Q.},
-  title   = {DifferentialEquations.jl -- A Performant and Feature-Rich Ecosystem for Solving Differential Equations in Julia},
-  journal = {Journal of Open Research Software},
-  volume  = {5},
-  number  = {1},
-  year    = {2017},
+@book{SamarskiiGulin1989,
+  author    = {Самарский, А. А. and Гулин, А. В.},
+  title     = {Численные методы},
+  year      = {1989},
+  publisher = {Наука},
+  address   = {Москва},
+  language  = {russian},
 }
 
-@article{Julia2023,
+% === Julia и инструменты ===
+
+@article{Julia2017,
   author  = {Bezanson, J. and Edelman, A. and Karpinski, S. and Shah, V. B.},
   title   = {Julia: A Fresh Approach to Numerical Computing},
   journal = {SIAM Review},
@@ -77,6 +102,19 @@
   year    = {2017},
   doi     = {10.1137/141000671},
 }
+
+@article{Rackauckas2017,
+  author  = {Rackauckas, C. and Nie, Q.},
+  title   = {DifferentialEquations.jl -- A Performant and Feature-Rich Ecosystem for Solving Differential Equations in Julia},
+  journal = {Journal of Open Research Software},
+  volume  = {5},
+  number  = {1},
+  pages   = {15--25},
+  year    = {2017},
+  doi     = {10.5334/jors.151},
+}
+
+% === PINN: основополагающие работы ===
 
 @article{Hornik1991,
   author  = {Hornik, K.},
@@ -88,14 +126,6 @@
   year    = {1991},
 }
 
-@article{Lotka1925,
-  author  = {Lotka, A. J.},
-  title   = {Elements of Physical Biology},
-  year    = {1925},
-  publisher = {Williams and Wilkins},
-  address = {Baltimore},
-}
-
 @article{Raissi2018,
   author  = {Raissi, M. and Perdikaris, P. and Karniadakis, G. E.},
   title   = {Numerical Gaussian Processes for Time-dependent and Non-linear Partial Differential Equations},
@@ -104,13 +134,185 @@
   number  = {1},
   pages   = {A172--A198},
   year    = {2018},
+  doi     = {10.1137/17M1120762},
 }
 
-@book{Bazikin2003,
-  author    = {Базыкин, А. Д.},
-  title     = {Нелинейная динамика взаимодействующих популяций},
-  year      = {2003},
-  publisher = {Институт компьютерных исследований},
-  address   = {Москва -- Ижевск},
+@article{Raissi2019,
+  author  = {Raissi, M. and Perdikaris, P. and Karniadakis, G. E.},
+  title   = {Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations},
+  journal = {Journal of Computational Physics},
+  volume  = {378},
+  pages   = {686--707},
+  year    = {2019},
+  doi     = {10.1016/j.jcp.2018.10.045},
+}
+
+% === PINN: развитие метода (2019--2025) ===
+
+@article{NeuralPDE2021,
+  author  = {Zubov, K. and McCarthy, Z. and Ma, Y. and Calisto, F. and Pagliarino, V. and Azeglio, S. and Bottero, L. and Luján, E. and Sulzer, V. and Bharambe, A. and Vinchhi, N. and Balakrishnan, K. and Upadhyay, D. and Rackauckas, C.},
+  title   = {NeuralPDE: Automating Physics-Informed Neural Networks (PINNs) with Error Approximations},
+  journal = {arXiv preprint},
+  eprint  = {2107.09443},
+  year    = {2021},
+}
+
+@article{Lu2021,
+  author  = {Lu, L. and Meng, X. and Mao, Z. and Karniadakis, G. E.},
+  title   = {DeepXDE: A deep learning library for solving differential equations},
+  journal = {SIAM Review},
+  volume  = {63},
+  number  = {1},
+  pages   = {208--228},
+  year    = {2021},
+  doi     = {10.1137/19M1274067},
+}
+
+@article{Karniadakis2021,
+  author  = {Karniadakis, G. E. and Kevrekidis, I. G. and Lu, L. and Perdikaris, P. and Wang, S. and Yang, L.},
+  title   = {Physics-informed machine learning},
+  journal = {Nature Reviews Physics},
+  volume  = {3},
+  number  = {6},
+  pages   = {422--440},
+  year    = {2021},
+  doi     = {10.1038/s42254-021-00314-5},
+}
+
+@article{Cuomo2022,
+  author  = {Cuomo, S. and Di Cola, V. S. and Giampaolo, F. and Rozza, G. and Raissi, M. and Piccialli, F.},
+  title   = {Scientific Machine Learning Through Physics-Informed Neural Networks: Where we are and What's Next},
+  journal = {Journal of Scientific Computing},
+  volume  = {92},
+  number  = {88},
+  year    = {2022},
+  doi     = {10.1007/s10915-022-01939-z},
+}
+
+@article{Chen2018,
+  author  = {Chen, R. T. Q. and Rubanova, Y. and Bettencourt, J. and Duvenaud, D.},
+  title   = {Neural Ordinary Differential Equations},
+  journal = {Advances in Neural Information Processing Systems},
+  volume  = {31},
+  year    = {2018},
+}
+
+@article{Rackauckas2020,
+  author  = {Rackauckas, C. and Ma, Y. and Martensen, J. and Warner, C. and Zubov, K. and Supekar, R. and Skinner, D. and Ramadhan, A. and Edelman, A.},
+  title   = {Universal Differential Equations for Scientific Machine Learning},
+  journal = {arXiv preprint},
+  eprint  = {2001.04385},
+  year    = {2020},
+}
+
+@article{Wang2022,
+  author  = {Wang, S. and Teng, Y. and Perdikaris, P.},
+  title   = {Understanding and Mitigating Gradient Flow Pathologies in Physics-Informed Neural Networks},
+  journal = {SIAM Journal on Scientific Computing},
+  volume  = {43},
+  number  = {5},
+  pages   = {A3055--A3081},
+  year    = {2021},
+  doi     = {10.1137/20M1318043},
+}
+
+@article{Jagtap2020,
+  author  = {Jagtap, A. D. and Kawaguchi, K. and Karniadakis, G. E.},
+  title   = {Adaptive activation functions accelerate convergence in deep and physics-informed neural networks},
+  journal = {Journal of Computational Physics},
+  volume  = {404},
+  pages   = {109136},
+  year    = {2020},
+  doi     = {10.1016/j.jcp.2019.109136},
+}
+
+@article{Krishnapriyan2021,
+  author  = {Krishnapriyan, A. S. and Gholami, A. and Zhe, S. and Kirby, R. M. and Mahoney, M. W.},
+  title   = {Characterizing possible failure modes in physics-informed neural networks},
+  journal = {Advances in Neural Information Processing Systems},
+  volume  = {34},
+  pages   = {26548--26560},
+  year    = {2021},
+}
+
+@article{Rohrhofer2023,
+  author  = {Rohrhofer, F. M. and Posch, S. and Gößnitzer, C. and Geiger, B. C.},
+  title   = {On the Pareto Front of Physics-Informed Neural Networks},
+  journal = {IEEE Access},
+  volume  = {11},
+  pages   = {85tried--85633},
+  year    = {2023},
+  doi     = {10.1109/ACCESS.2023.3304349},
+}
+
+% === PINN для экологических моделей ===
+
+@article{Banerjee2024,
+  author  = {Banerjee, A. and Gupta, S. K. S.},
+  title   = {Recovering Implicit Physics Model Under Real-World Constraints},
+  journal = {ECAI 2024, Frontiers in Artificial Intelligence and Applications},
+  year    = {2024},
+  doi     = {10.3233/FAIA240556},
+}
+
+% === Работы группы РУДН ===
+
+@article{Belicheva2025,
+  author  = {Belicheva, D. M. and Demidova, E. A. and Shtepa, K. A. and Gevorkyan, M. N. and Korolkova, A. V. and Kulyabov, D. S.},
+  title   = {Using NeuralPDE.jl to solve differential equations},
+  journal = {Discrete and Continuous Models and Applied Computational Science},
+  volume  = {33},
+  number  = {3},
+  pages   = {284--298},
+  year    = {2025},
+  doi     = {10.22363/2658-4670-2025-33-3-284-298},
+}
+
+@inproceedings{Shtepa2024,
+  author    = {Штепа, К. А. and Беличева, Д. М. and Демидова, Е. А.},
+  title     = {Применение NeuralPDE.jl для решения дифференциальных уравнений},
+  booktitle = {Информационно-телекоммуникационные технологии и математическое моделирование --- 2024},
+  year      = {2024},
+  pages     = {372--376},
   language  = {russian},
+}
+
+@article{Demidova2024,
+  author  = {Demidova, E. A. and Belicheva, D. M. and Shutenko, V. M. and Korolkova, A. V. and Kulyabov, D. S.},
+  title   = {Symbolic-numeric approach for the investigation of kinetic models},
+  journal = {Discrete and Continuous Models and Applied Computational Science},
+  volume  = {32},
+  number  = {3},
+  pages   = {306--318},
+  year    = {2024},
+  doi     = {10.22363/2658-4670-2024-32-3-306-318},
+}
+
+@article{Vasilyeva2024,
+  author  = {Vasilyeva, I. I. and Demidova, A. V. and Druzhinina, O. V.},
+  title   = {Computer research of deterministic and stochastic models <<two competitors -- two migration areas>> taking into account the variability of parameters},
+  journal = {Discrete and Continuous Models and Applied Computational Science},
+  year    = {2024},
+  doi     = {10.22363/2658-4670-2024-40100},
+}
+
+% === Reaction-diffusion и пространственные модели ===
+
+@article{Turing1952,
+  author  = {Turing, A. M.},
+  title   = {The chemical basis of morphogenesis},
+  journal = {Philosophical Transactions of the Royal Society of London B},
+  volume  = {237},
+  pages   = {37--72},
+  year    = {1952},
+}
+
+@article{Fisher1937,
+  author  = {Fisher, R. A.},
+  title   = {The wave of advance of advantageous genes},
+  journal = {Annals of Eugenics},
+  volume  = {7},
+  number  = {4},
+  pages   = {355--369},
+  year    = {1937},
 }
