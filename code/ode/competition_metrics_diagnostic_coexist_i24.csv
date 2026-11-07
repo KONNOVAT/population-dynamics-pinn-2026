@@ -1,0 +1,2 @@
+regime,seed,maxiters,tsit5_seconds,pinn_seconds,mae_u1,mae_u2,max_u1,max_u2,mae_N1,mae_N2,max_N1,max_N2,negative_points
+coexist,42,24,4.090979,275.873723,0.2930755384,0.6197584273,0.433098648,1.002070248,29.30755384,61.97584273,43.3098648,100.2070248,162

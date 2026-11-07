@@ -33,3 +33,12 @@ misc/
 План ВКРм Коннова.docx
 Применение_NeuralPDE_jl_*
 КОНСПЕКТ.md
+
+# Personal study materials (local only)
+vkr/diffeq-guide.qmd
+vkr/diffeq-guide.pdf
+vkr/code-walkthrough.md
+
+# Local document-generation helpers
+scripts/build_supervisor_status.py
+scripts/render_docx_word.ps1
