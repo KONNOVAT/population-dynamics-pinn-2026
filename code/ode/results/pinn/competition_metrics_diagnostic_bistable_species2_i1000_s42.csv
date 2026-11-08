@@ -1,0 +1,2 @@
+regime,seed,maxiters,tsit5_seconds,pinn_seconds,mae_u1,mae_u2,max_u1,max_u2,mae_N1,mae_N2,max_N1,max_N2,negative_points
+bistable_species2,42,1000,0.000065,46.966622,0.001212500257,0.001586041959,0.003517426884,0.005874541303,0.1212500257,0.1586041959,0.3517426884,0.5874541303,0
