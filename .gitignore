@@ -48,6 +48,12 @@ scripts/render_docx_word.ps1
 # Raw imported archive (the cleaned reproducible notebooks live in code/pluto)
 experiments/lv_import/
 
+# Reference article excluded from the VKR repository
+46738-225899-1-PB.pdf
+
 # Local rendering and running services
 tmp/
 code/pluto/results/pluto/
+
+# Transient plots written beside scripts; reproducible results live in results/
+code/ode/competition_*.png
