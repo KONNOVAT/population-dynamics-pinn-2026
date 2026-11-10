@@ -1,0 +1,13 @@
+Время запуска: 2026-11-10 12:51:07
+Julia: 1.13.3
+Pluto notebook: competition_pinn.jl
+NeuralPDE: 7.5.0
+Lux: 1.31.5
+OrdinaryDiffEq: 7.8.1
+OptimizationOptimJL: 0.4.23
+Сценариев: 4
+Траекторий: 5
+Максимальная ошибка, нормированная на K: 2.4770529593638456e-5
+Максимальная относительная L2-ошибка: 5.424254033687928e-6
+Повторно обученных траекторий: 0
+Графики: four_outcomes_phase.png, four_outcomes_time.png, parameter_regimes.png, pinn_absolute_errors_all_cases.png, pinn_errors_all_cases.png, pinn_vs_numeric_all_cases.png, pinn_zoom_largest_difference.png

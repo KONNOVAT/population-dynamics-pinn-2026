@@ -16,6 +16,8 @@
 *.jl.cov
 *.jl.mem
 Manifest.toml
+!code/pluto/Manifest.toml
+!code/pluto/pluto_env/Manifest.toml
 
 # OS
 Thumbs.db
@@ -42,3 +44,10 @@ vkr/code-walkthrough.md
 # Local document-generation helpers
 scripts/build_supervisor_status.py
 scripts/render_docx_word.ps1
+
+# Raw imported archive (the cleaned reproducible notebooks live in code/pluto)
+experiments/lv_import/
+
+# Local rendering and running services
+tmp/
+code/pluto/results/pluto/
